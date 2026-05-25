@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 - HTML Forms</title>
+</head>
+<body>
+    <!-- Day 7: Build a simple registration form with common input types. -->
+    <h1>Registration Form</h1>
+
+    <form action="#" method="post">
+        <p>
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your name">
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </p>
+
+        <p>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Create a password">
+        </p>
+
+        <p>Choose your level:</p>
+        <input type="radio" id="beginner" name="level" value="beginner">
+        <label for="beginner">Beginner</label><br>
+        <input type="radio" id="intermediate" name="level" value="intermediate">
+        <label for="intermediate">Intermediate</label>
+
+        <p>Select your interests:</p>
+        <input type="checkbox" id="html" name="interest" value="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="interest" value="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="projects" name="interest" value="projects">
+        <label for="projects">Projects</label>
+
+        <p>
+            <label for="course">Choose a course:</label><br>
+            <select id="course" name="course">
+                <option value="html">HTML Basics</option>
+                <option value="css">CSS Basics</option>
+                <option value="web-project">Web Project</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="35" placeholder="Tell us about your goal"></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
