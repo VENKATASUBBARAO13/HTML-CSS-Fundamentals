@@ -1,0 +1,42 @@
+﻿/* Day 11: Visual box model example. */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1f2937;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.margin-box {
+    width: 520px;
+    height: 340px;
+    margin: 30px auto;
+    padding: 24px;
+    background-color: #fde68a;
+}
+
+.border-box {
+    height: 100%;
+    padding: 24px;
+    border: 8px solid #f97316;
+    background-color: #fed7aa;
+}
+
+.padding-box {
+    height: 100%;
+    padding: 24px;
+    background-color: #bfdbfe;
+}
+
+.content-box {
+    height: 100%;
+    padding-top: 45px;
+    background-color: #bbf7d0;
+    border: 2px dashed #166534;
+    font-weight: bold;
+}

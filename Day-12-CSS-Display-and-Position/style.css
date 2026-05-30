@@ -1,0 +1,74 @@
+﻿/* Day 12: Display and position examples. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #f7fee7;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+.block-box,
+.inline-box,
+.inline-block-box,
+.static-box,
+.relative-box,
+.absolute-box,
+.fixed-box {
+    padding: 12px;
+    margin: 8px;
+    border: 2px solid #365314;
+    background-color: #d9f99d;
+}
+
+.block-box {
+    display: block;
+}
+
+.inline-box {
+    display: inline;
+}
+
+.inline-block-box {
+    display: inline-block;
+    width: 180px;
+}
+
+.hidden-box {
+    display: none;
+}
+
+.position-area {
+    position: relative;
+    min-height: 220px;
+    border: 2px dashed #65a30d;
+    padding: 16px;
+    background-color: white;
+}
+
+.static-box {
+    position: static;
+}
+
+.relative-box {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background-color: #bef264;
+}
+
+.absolute-box {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #fef08a;
+}
+
+.fixed-box {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: #bbf7d0;
+}
