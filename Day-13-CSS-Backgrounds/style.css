@@ -1,0 +1,38 @@
+﻿/* Day 13: Background color and gradient background image. */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+}
+
+.hero {
+    min-height: 100vh;
+    padding: 80px 24px;
+    color: white;
+    text-align: center;
+    background-color: #2563eb;
+    background-image: linear-gradient(135deg, #2563eb, #16a34a);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 18px;
+    border: none;
+    background-color: white;
+    color: #1d4ed8;
+    font-weight: bold;
+    cursor: pointer;
+}
