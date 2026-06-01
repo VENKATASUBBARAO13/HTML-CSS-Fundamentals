@@ -1,0 +1,50 @@
+﻿/* Day 14: Flexbox and Grid layouts. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #fdf2f8;
+    color: #3b1630;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.flex-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 24px 0 40px;
+}
+
+.card {
+    width: 160px;
+    padding: 28px;
+    background-color: white;
+    border: 2px solid #db2777;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.gallery div {
+    min-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbcfe8;
+    border: 2px solid #be185d;
+    font-size: 28px;
+    font-weight: bold;
+}
